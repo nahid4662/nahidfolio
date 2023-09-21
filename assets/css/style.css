@@ -1,0 +1,409 @@
+/* commmon code start */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+.container{
+    min-width: 320px;
+}
+.btn-style {
+    padding: 13px 35px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+    border: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+.btn-primary:hover{
+    background-color: #025B4D;
+}
+/* commmon code end */
+
+/* nav start */
+.section-items{
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../img/banner1.jpg') no-repeat;
+    background-size: cover;
+}
+.section-items .nav-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 9;
+    background: rgba(6, 31, 36, 0.9);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    height: 110px;
+}
+.navbar .navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    opacity: .8;
+    padding-right: 20px !important;
+    transition: 0.3s linear;
+}
+.navbar-nav .nav-link.active{
+    color: #fff;
+    opacity: 1;
+}
+.navbar-nav .nav-link:hover{
+    color: #fff;
+    opacity: 1;
+}
+.navbar-nav .dropdown-item{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-toggler {
+    background-color: #198754;
+}
+.navbar-nav .nav-link.show {
+    color: #fff;
+    opacity: 0.8;
+}
+/* nav end */
+/* header start */
+.header-content h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-content h1 span{
+    /* font-size: 6.25rem;  */
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+}
+.header-content p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-content .btn-style {
+    padding: 13px 35px;
+}
+.header-content .btn {
+    --bs-btn-padding-x: 2.1rem;
+    --bs-btn-padding-y: .90rem;
+    --bs-btn-font-family: 'Open Sans', sans-serif;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 700;
+}
+/* header end */
+/* biography section start */
+.biography-banner{
+    background: #B7B7B7;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.biography-content h3{
+    color: #707070;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.biography-content h2{
+    color: #404044;
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.biography-content p{
+    color: #707070;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.biography-info p{
+    color: #404044;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.biography-info .name-address{
+    color: #707070;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.biography-info .email-phone{
+    color: #707070;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.social-info span{
+    color: #404044;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.social-info i{
+    color: #007e6a;
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+.biography-btn .btn-primary {
+    color: #fff;
+    background-color: #025B4D;
+    border-color: #025B4D;
+}
+.biography-btn .btn-primary1 {
+    color: #fff;
+    background-color: #02A55F;
+    border-color: #02A55F;
+}
+/* biography section end */
+/* services section start */
+.services-area{
+    background: #F6F6F6;
+}
+.services-title h2{
+    color: #404044;
+    font-size: 2.375rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.services-card{
+    background: #fff;
+}
+.services-card span i{
+    color: #007e6a;
+    font-size: 2.5rem;
+}
+.services-card h2 a{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s linear;
+}
+.services-card h2 a:hover{
+    color: #007e6a;
+}
+.services-card p{
+    color: #707070;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+/* services section end */
+/* skill section start */
+.biography-banner{
+    background: #B7B7B7;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.skill-content h3{
+    color: #707070;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.skill-content h2{
+    color: #404044;
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.skill-content p{
+    color: #707070;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.progress-bar h2{
+    color: #707070;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.progress-bar .progress{
+    --bs-progress-height: .9rem;
+}
+/* skill section end */
+/* why choose us section start */
+.whyChooseUs{
+    background: #f6f6f6;
+}
+.whyChooseUs .whychooseus-card span i{
+    color: #007e6a;
+    font-size: 1.75rem;
+}
+.whyChooseUs .whychooseus-card .choosecard-details{
+    padding: 0px 20px 20px 20px;
+}
+.whyChooseUs .whychooseus-card .choosecard-details h2{
+    line-height: 1;
+    color: #404044;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.whyChooseUs .whychooseus-card .choosecard-details p{
+    color: #707070;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px;
+}
+/* why choose us section end */
+/* stats section start */
+.stats-section .stats-items h2{
+    color: #404044;
+    font-size: 2.875rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.stats-section .stats-items p{
+    color: #707070;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+/* stats section end */
+/* success-work section start */
+.successWork-area{
+    background: #F6F6F6;
+}
+.successWork-title h2{
+    color: #404044;
+    font-size: 2.375rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.successWork-card{
+    position: relative;
+    
+}
+.content-overlay{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s linear; 
+}
+.successWork-card .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    opacity: 0;   
+    transition: .3s linear;
+    cursor: pointer; 
+}
+.successWork-card .content-details h3 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.successWork-card .content-details p {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+.successWork-card:hover .content-details{
+    opacity: 1; 
+    bottom: 25%;   
+}
+.successWork-card:hover .content-overlay{
+    opacity: 1; 
+}
+/* success-work section end */
+/* brands section start  */
+.brands-bg{
+    background: #397f6a;
+}
+/* brands section end  */
+/* footer start  */
+.footer-area{
+    background: #061F24;
+}
+.footer-items .navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-items a{
+    margin-right: 20px;
+    padding: 0;
+    color: #aaa;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s linear;
+}
+.footer-items span{
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-items .my-address:hover{
+    color: #007e6a;
+}
+.footer-bottom{
+    background: #01181D;
+}
+.copyright p{
+    color: #aaa;
+    font-size: 1.05rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.copyright p a{
+    color: #397f6a;
+    font-size: 1.05rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s linear;
+}
+.copyright p a:hover{
+    color: #fff;
+}
+.socials .social-icon{
+    height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: #061f24;
+    color: #aaa;
+    margin-right: 9px;
+    border-radius: 50%;
+    padding: 13px 16px;
+    border: 0;
+    transition: .3s linear;
+}
+.socials .social-icon:hover{
+    background: #397F6A;
+    color: #fff;
+}
+/* footer end  */
