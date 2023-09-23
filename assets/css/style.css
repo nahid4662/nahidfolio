@@ -266,7 +266,7 @@
 }
 /* why choose us section end */
 /* stats section start */
-.stats-section .stats-items h2{
+.stats-section .stats-items .counter{
     color: #404044;
     font-size: 2.875rem;
     font-weight: 700;
