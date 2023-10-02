@@ -44,3 +44,26 @@ let counterClass = '.counter';
 
 // default animation speed
 let defaultSpeed = 3000;
+
+// Get a reference to the button
+const backToTopButton = document.getElementById('backToTopBtn');
+
+// Add a scroll event listener
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+        // Show the button when the user scrolls down
+        backToTopButton.classList.add('active');
+    } else {
+        // Hide the button when the user is at the top
+        backToTopButton.classList.remove('active');
+    }
+});
+
+// Add a click event listener to scroll to the top
+backToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scroll animation
+    });
+});
+
